@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task3</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>task3</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        <style>
+          body{
+            overflow-x: hidden;
+          }
+          #div1h1 {
+            font-size: 3rem;
+            color: rgb(14, 1, 1);
+            margin-left: 20px;
+          }
+          .div {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+          }
+
+          .div1 {
+            background-color: white;
+            width: 400px;
+            overflow:scroll;
+            text-align: center;
+            font-size: 1.5rem;
+            height: 100vh;
+            position: fixed;
+          }
+          h2:hover {
+            background-color: bisque;
+            width: 450px;
+          }
+          details:hover {
+            background-color: bisque;
+          }
+          .id:hover {
+            background-color: rgba(12, 12, 11, 0.19);
+            color: white;
+            font-size: 2rem;
+          }
+          .div2 {
+            
+           margin-left: 500px;
+            width:50vw;
+            height:100vh;
+          }
+          .div21 {
+            display: flex;
+            margin-left: 100px;
+            justify-content: space-between;
+            
+          }
+          .jeans {
+            position: relative;
+          }
+          .jeans h3 {
+            position: absolute;
+            top: 100px;
+            margin-left: 180px;
+            font-size: 4.5rem;
+            color: white;
+          }
+          .jeans h4 {
+            position: absolute;
+            top: 200px;
+            margin-left: 180px;
+            font-size: 3rem;
+            color: white;
+          }
+          .jeans h5 {
+            position: absolute;
+            top: 300px;
+            margin-left: 180px;
+            font-size: 3rem;
+          }
+          .im {
+            display: flex;
+            margin: 20px;
+            justify-content: space-evenly;
+          }
+          /*
+         .im span{
+          position: absolute;
+          top: 100px;
+          font-size: 2rem;
+          background-color: black;
+          color: white;
+          margin-right: 1200px;
+          
+         }
+         .im p{
+          position: absolute;
+          top: 130px;
+          margin-left: 100px;
+          font-size: none;
+      
+          
+         }
+         */
+          .jeans2 {
+            position: relative;
+          }
+          .jeans2 span {
+            position: absolute;
+            top: 0px;
+            font-size: 2rem;
+            background-color: black;
+            color: aliceblue;
+          }
+          span {
+            position: relative;
+          }
+          span #buy {
+            position: absolute;
+            top: 130px;
+            margin-left: 100px;
+            width: 150px;
+          }
+          #buy {
+            display: none;
+            background-color: black;
+            color: white;
+          }
+          span:hover #buy {
+            display: block;
+            display: flex;
+          }
+          span {
+            font-size: 2rem;
+          }
+          .block{
+            width:1300px;
+            height: 500px;
+            background-color: black;
+            color: white;
+            font-size: 3rem;
+            padding-left: 40px;
+            padding-bottom: 40px;
+            padding-top: 40px;
+          }
+          button{
+            background-color: red;
+          }
+          button:hover{
+           background-color: wheat; 
+          }
+          .input{
+            font-size: 2rem;
+            
+          }
+          input{
+            font-size: 2rem;
+            height: 50px;
+          }
+          a{
+            font-size: 2rem;
+          }
+         .threeblocks{
+          display:grid;
+          grid-template-columns: auto auto auto;
+          padding-top: 50px;
+          margin-left: 100px;
+          column-gap: 40px;
+         }
+          footer{
+            background-color: black;
+            color:white;
+            font-size: 1rem;
+            height: 150px;
+            text-align: center;
+            width: 100vw;
+            
+          }
+          nav{
+            margin-left:400px;
+          
+          }
+          .span{
+            margin-left: 400px;
+            position: fixed;
+          }
+          
+        </style>
+      </head>
+      <body>
+        <div class="div">
+          <div class="div1">
+            <h1 id="div1h1">L&nbspO&nbspG&nbspO</h1>
+            <br /><br /><br /><br /><br />
+
+            <h2>Shirts</h2>
+            <h2>Dresses</h2>
+            <details>
+              <summary style="font-size: 2.5rem">Jean</summary>
+              <details>
+                <summary class="id">Skinny</summary>
+                <summary class="id">Relaxed</summary>
+                <summary class="id">Bootcut</summary>
+                <summary class="id">Straight</summary>
+              </details>
+            </details>
+            <h2>Jackets</h2>
+            <h2>Gymwear</h2>
+            <h2>Blazers</h2>
+            <h2>Shoes</h2>
+            <br /><br /><br /><br /><br /><br /><br />
+            <h2>Contact</h2>
+            <h2>Newsletter</h2>
+            <h2>Subscribe</h2>
+          </div>
+
+          <!-- <div class="div21">
+              <h1>JEANS</h1>
+              <h1 style="margin-left:1000px ;"><i class="fa-solid fa-cart-shopping fa-xl"></i></h1>
+              <h1><i class="fa-solid fa-magnifying-glass fa-xl"></i></h1>
+            </div>
+            <div class="div21">
+              <img class="img1" src="./img/jeans.jpg" alt="">
+              <h1>New arrivals</h1>
+              <h1></h1>
+            </div>
+         -->
+         <nav>
+          <span style="margin-left:100px" class="span">JEANS</span>
+          <span  style="margin-left:1000px;" class="span"><i class="fa-solid fa-cart-shopping fa-xl"></i></span>
+          <span style="margin-left:1060px;"  class="span"><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+         </nav> <br><br><br>
+          <div class="div2">
+            <!-- <nav class="div21" style="background-color:red">
+              <span style="font-size: 2rem">JEANS</span>
+              <span style="margin-left: 1000px">
+                <i class="fa-solid fa-cart-shopping fa-xl"></i>
+              </span>
+              <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+            </nav> <br><br><br>-->
+            
+            <div class="jeans"> 
+              
+              <div class="img2">
+                <img src="./img/jeans.jpg" width="1230px" alt="" />
+                <h3>New arrivals</h3>
+                <br /><br />
+                <h4>COLLECTION 2016</h4>
+                <br /><br />
+
+                <a href="" style="text-decoration: none; color: white"
+                  ><h5
+                    style="
+                      background-color: black;
+                      width: 300px;
+                      height: 100px;
+                      align-content: center;
+                    "
+                  >
+                    SHOPNOW
+                  </h5></a
+                >
+              </div>
+            </div>
+            <h3 style="font-size: 2rem">8 items</h3>
+            <div class="im">
+              <div>
+                <img src="./img/jeans1.jpg" width="280px" alt="jeans1" /><br />
+                <span>Ripped Skinny Jeans</span><br />
+                <span>$24.99</span>
+              </div>
+
+              <div class="jeans2">
+                <img src="./img/jeans2.jpg" width="280px" alt="jeans2" /> <br />
+                <span>
+                  New<span id="buy"
+                    >BuyNow<i class="fa-solid fa-cart-shopping fa-l"></i
+                  ></span>
+                </span>
+                <h1>Mega Ripped Jeans</h1>
+                <h1>$19.99</h1>
+              </div>
+              <div>
+                <img src="./img/jeans3.jpg" width="280px" alt="jeans3" /><br />
+                <span>Washed Skinny Jeans </span><br />
+                <span>$20.50 </span><br />
+              </div>
+              <div>
+                <img src="./img/jeans4.jpg" width="280px" alt="jeans4" /><br />
+                <span>Vintage Skinny Jeans </span> <br />
+                <span>$14.99 </span>
+              </div>
+            </div>
+
+            <div class="im">
+              <div>
+                <img src="./img/jeans2.jpg" width="280px" alt="jeans1" /><br />
+                <span>Ripped Skinny Jeans</span><br />
+                <span>$24.99</span>
+              </div>
+
+              <div class="jeans2">
+                <img src="./img/jeans3.jpg" width="280px" alt="jeans2" /> <br />
+                <span>
+                  SALE<span id="buy"
+                    >BuyNow<i class="fa-solid fa-cart-shopping fa-l"></i
+                  ></span>
+                </span>
+                <h1>Mega Ripped Jeans</h1>
+                <h1>$19.99</h1>
+              </div>
+              <div>
+                <img src="./img/jeans4.jpg" width="280px" alt="jeans3" /><br />
+                <span>Washed Skinny Jeans </span><br />
+                <span>$20.50 </span><br />
+              </div>
+              <div>
+                <img src="./img/jeans1.jpg" width="280px" alt="jeans4" /><br />
+                <span>Vintage Skinny Jeans </span> <br />
+                <span>$14.99 </span>
+              </div>
+            </div>
+              <div class="block">
+                <p>Subscribe
+                </p>
+                <p>To get special offers and VIP treatment:
+                </p>
+                <form action="">
+                  <input type="text" placeholder="enter E-mail" style="font-size: 2rem;width:1000px; height:70px;"><br><br>
+                  <button style="font-size: 2rem; height:50px;">Subscribe</button>
+                </form>
+              </div>
+              <div class="threeblocks">
+                <div class="input">
+                  <h1>Contact</h1>
+                  <p>Questions? Go ahead</p>
+                  <form action="">
+                   <input type="text" placeholder="Name"><br><br>
+                   <input type="text" placeholder="Email"><br><br>
+                   <input type="text" placeholder="Subject"><br><br>
+                   <input type="text" placeholder="Message"><br><br>
+                   <button style="background-color: black;color:wheat;width:400px;height:60px;font-size:2rem;">Send</button>
+                  </form>
+                </div>
+                <div>
+                  <h1>About</h1>
+                  <a href="">About us</a><br>
+                  <a href="">We're hiring</a><br>
+                  <a href="">Support</a><br><br>
+                  <a href="">Find store</a><br>
+                  <a href="">Shipment</a><br>
+                  <a href="">Payment</a><br>
+                  <a href="">Gift card</a><br>
+                  <a href="">Return</a><br>
+                  <a href="">Help</a>
+                
+                </div>
+                <div>
+                  <h1>Store</h1>
+                  <h2><i class="fa-sharp fa-regular fa-location-dot"></i>Company Name</h2>
+                  <h2><i class="fa-solid fa-phone"></i> 0044123123</h2>
+                  <h2> <i class="fa-solid fa-envelope"></i>ex@mail.com</h2>
+                  <h1>We accept</h1>
+                  <h2><i class="fa-brands fa-cc-amex"></i>Amex</h2>
+                  <h2><i class="fa-solid fa-credit-card"></i> Credit Card</h2> <br><br><br>
+                  <span><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-square-snapchat"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i></span>
+                </div> <br><br>
+                 
+              </div>
+              <div>
+                <footer>
+                  <h1 style="padding-top: 40px;margin-left:-300px;">Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_clothing_store.htm#">w3.css</a></h1>
+                </footer>
+              
+                </div>
+          </div>
+          
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
